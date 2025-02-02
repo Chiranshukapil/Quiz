@@ -26,7 +26,7 @@ const Question = ({
             disabled={selectedOption !== null}
             className={`w-full text-left p-4 rounded-lg transition-all duration-300 
               ${selectedOption === null 
-                ? 'bg-gray-100 hover:bg-indigo-100 hover:shadow-md' 
+                ? 'bg-gray-100 hover:bg-indigo-100 hover:shadow-md hover:cursor-pointer' 
                 : option.is_correct 
                   ? 'bg-green-100 border-2 border-green-500' 
                   : selectedOption !== option
